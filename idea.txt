@@ -1,0 +1,104 @@
+
+***************** JOB . COM ******************
+
+Features:-
+            1. Administrator
+            2. Job Seeker
+            3. Job Provider
+            4. Job Search
+
+System User: - 
+            1. Administrator
+            2. job Seeker
+            3. Job Provider
+
+================================================
+
+********** Admin Features **********
+
+1. Manage job Seeker Section 
+    e.g. activate, deactivate, delete, edit profile
+
+2. View Each application for job by job Seeker
+
+3.  Manage job Seeker Section 
+    e.g. activate, deactivate, delete, edit company profile
+
+4. Manage posted jobs. Like: activate/deactivate/delete/edit posted job.
+
+5. Admin user can send message to any jobseeker or job provider.
+
+
+********** Job Provider **********
+
+1. Add / Edit company’s profile
+
+2. Post new job vacancies
+
+3. Edit / Deactivate posted jobs
+
+4. Job provider can see the list of jobseekers who has applied for the job
+
+5. Job provider can search jobseekers
+
+6. Job provider can see and download the jobseeker’s resume
+
+7. Job provider can send message to any job seeker
+
+
+********** Job Seeker **********
+
+1. Search for jobs
+
+2. Apply Online for desire job
+
+3. Add/Edit profile information including qualification, experience, and skills.
+
+4. Upload latest resume.
+
+===================== Main Website FrontEnd ===========================
+
+1. Search jobs on the basis of skills, city, country or job title
+
+2. Register as a jobseeker or as a job provider
+
+3. Login to jobseeker or job provider portal
+
+4. About Us
+
+5. Contact us
+
+
+===================== UI Pages ===========================
+
+1. Login Page
+
+2. Signup Page
+
+3. Admin Dashboard
+
+4. Admin Login
+
+5. Job seeker build Profile
+
+6. Job Seeker Ui (job post, details)
+
+7. Job Post details page
+
+8. Job Provider company build profile
+
+9. Job Posting form 
+
+10. Job Seeker Profile for Companys View
+
+
+===================== Important Notes ===========================
+
+1. Make a scrollable Div for job post
+
+2.  
+
+
+
+
+

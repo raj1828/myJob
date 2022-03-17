@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #7fdbee; */
+}
+.container{
+    /* border: 2px solid #b5d8df; */
+    /* background-color: #b5d8df; */
+    width: 500px;
+    /* display: flex; */
+    flex-direction: column;
+    box-shadow: 5px 5px 5px 5px  #ccc;
+    /* align-items: center; */
+}
+.container header{
+    padding: 16px 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+    /* border-bottom: 1px solid #b5d8df; */
+}
+.container .form{
+    padding: 16px 17px;
+
+}
+.container form{
+    margin: 12px 12px;
+}
+.container .details{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+}
+.container .user-details{
+    padding: 10px 10px;
+    width: 100%;
+}
+.user-details :where(input, button){
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-radius: 7px;
+}
+/* .user-details-log :where(input, button){
+    width: 70%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-radius: 7px;
+} */
+.user-details input{
+    text-align: center;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    /* border-bottom: 1px solid #ccc; */
+}
+.user-details input:is(:focus, :valid){
+    border: 2px solid #43AFFC;
+    /* border-bottom: 2px solid #43AFFC; */
+}
+.user-details input::placeholder{
+    color: #bfbfbf;
+}
+.user-details button{
+    color: #fff;
+    background: #43AFFC;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.button button:hover{
+    background: #1d9ffc;
+}
+.user-details label{
+    margin: 0 0 0 6px;
+    position: relative;
+    top: 13px;
+    font-size: 14px;
+    color: #43AFFC;
+    font-weight: 500;
+    z-index: 1;
+    background-color: #fff;
+    /* display: none; */
+}
+.forgot-pass{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forgot-pass p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+
+.forgot-pass p {
+    color: #43AFFC;
+}
+.forgot-pass a{
+    text-decoration: none;
+}
