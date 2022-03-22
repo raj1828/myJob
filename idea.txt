@@ -71,9 +71,9 @@ System User: -
 
 ===================== UI Pages ===========================
 
-1. Login Page
+1. Login Page       Done By Raj Mhatre
 
-2. Signup Page
+2. Signup Page      Done By Raj Mhatre
 
 3. Admin Dashboard
 
